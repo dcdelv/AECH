@@ -1,3 +1,4 @@
+/*MAIN PAGE*/
 .logo {
   display: block;
   margin-left: auto;
@@ -9,6 +10,7 @@
   bottom: 680px;
 }
 
+/*GENERAL*/
 .container {
   background-image: url("./images/background.jpg");
   background-repeat: no-repeat;
@@ -36,11 +38,14 @@
   transform-origin: left top 0;
 }
 
+
+/*PAGINA BANDAS*/
 .main-bandas {
   font-weight: bold;
   font-family: 'Roboto mono', monospace;
   font-size: 70px;
-  text-align: center;
+  margin-left: 100px;
+  text-align: left;
   line-height: 5.9rem;
   padding-top: 30px;
   margin-top: 20px;
@@ -48,4 +53,14 @@
   bottom: 580px;
   text-transform: uppercase;
   z-index: 1;
+}
+
+/*PAGINA ABOUT*/
+.text-about {
+  text-align: left;
+  font-size: 50px;
+  position: relative;
+  bottom: 530px;
+  margin-left: 100px;
+  width: 85%;
 }
