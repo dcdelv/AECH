@@ -1,0 +1,51 @@
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:45rem;
+  height: 45rem;
+  position: relative;
+  z-index: 5;
+  bottom: 680px;
+}
+
+.container {
+  background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  height: 662px;
+}
+
+.menu-bandas {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: #121515;
+  width:40%;
+  margin-top: 600px;
+  margin-left: 10px;
+  display: inline-flex;
+  justify-content: space-around;
+  transform: rotate(270deg);
+	transform-origin: left top 0;
+  position: relative;
+  z-index: 0;
+  max-height: 680px;
+}
+.menu-bandas a {
+  -webkit-transform: rotate(270deg);
+  transform-origin: left top 0;
+}
+
+.main-bandas {
+  font-weight: bold;
+  font-family: 'Roboto mono', monospace;
+  font-size: 70px;
+  text-align: center;
+  line-height: 5.9rem;
+  padding-top: 30px;
+  margin-top: 20px;
+  position: relative;
+  bottom: 580px;
+  text-transform: uppercase;
+  z-index: 1;
+}
